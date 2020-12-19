@@ -24,11 +24,6 @@ struct StatusManager {
         print(urlString)
         realizarSolicitud(urlString: urlString)
     }
-    //Para el GPS
-    func fetchStatus(lat:Double, lon:Double) {
-        let urlString = "\(statusURL)&lat=\(lat)&lon=\(lon)"
-        realizarSolicitud(urlString: urlString)
-    }
     
     func realizarSolicitud(urlString: String) {
         //Crear la URL

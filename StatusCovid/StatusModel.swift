@@ -21,5 +21,4 @@ struct StatusModel {
     let bandera:String
     let continente:String
 
-
 }
