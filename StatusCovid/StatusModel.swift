@@ -8,4 +8,18 @@
 
 import Foundation
 
+struct StatusModel {
+    
+    let pais:String
+    let casos:Int
+    let muertes:Int
+    let recuperados:Int
+       
+    let casosHoy:Int
+    let muertesHoy:Int
+    let recuperadosHoy:Int
+    let bandera:String
+    let continente:String
 
+
+}

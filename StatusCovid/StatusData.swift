@@ -7,5 +7,19 @@
 //
 
 import Foundation
+struct StatusData:Codable {
+    
+    let country:String
+    let cases:Int
+    let deaths:Int
+    let recovered:Int
+    
+    let todayCases:Int
+    let todayDeaths:Int
+    let todayRecovered:Int
+    let flag:String
+    let continent:String
+    
+}
 
 

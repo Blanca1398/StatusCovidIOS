@@ -36,6 +36,7 @@ class ViewController: UIViewController {
         LimpiarInfo(paisText: "Busca el pais",img: "covid3.png")
 
     }
+    
     func LimpiarInfo(paisText:String, img: String) {
         paisLabel.text = paisText
         cLabel.text = ""
