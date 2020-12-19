@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="covid2" translatesAutoresizingMaskIntoConstraints="NO" id="HgV-98-1xG">
-                                <rect key="frame" x="0.0" y="300" width="375" height="367.00000000000011"/>
+                                <rect key="frame" x="0.0" y="300" width="375" height="367"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondo" translatesAutoresizingMaskIntoConstraints="NO" id="aDe-lD-tbx">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
