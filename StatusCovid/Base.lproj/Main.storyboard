@@ -36,6 +36,9 @@
                                             <constraint firstAttribute="width" constant="30" id="fsI-zV-rFO"/>
                                         </constraints>
                                         <state key="normal" image="iconfinder_search_172546"/>
+                                        <connections>
+                                            <action selector="btnBuscar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l8z-8y-KmP"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -201,6 +204,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="5Sn-zu-7RO"/>
                     <connections>
+                        <outlet property="buscarTextField" destination="2Kx-CF-2dh" id="lya-vZ-k8Q"/>
                         <outlet property="cLabel" destination="6E7-qO-oHd" id="AaG-jv-iH8"/>
                         <outlet property="casosLabel" destination="dQP-VB-45f" id="e1Y-o2-byZ"/>
                         <outlet property="casostLabel" destination="xIp-aB-iMs" id="PWa-SO-eT9"/>

@@ -17,9 +17,12 @@ struct StatusData:Codable {
     let todayCases:Int
     let todayDeaths:Int
     let todayRecovered:Int
-    let flag:String
+    let countryInfo:CountryInfo
     let continent:String
     
+    struct CountryInfo:Codable {
+        let flag:String
+    }
 }
 
 
