@@ -18,15 +18,8 @@
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="A5L-fM-5Zh">
                                 <rect key="frame" x="20" y="74" width="335" height="40"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hg0-sI-byI">
-                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="40" id="elK-if-2r3"/>
-                                        </constraints>
-                                        <state key="normal" image="gps-826721"/>
-                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Kx-CF-2dh">
-                                        <rect key="frame" x="49" y="0.0" width="247" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="296" height="40"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -45,9 +38,7 @@
                                     <constraint firstItem="45X-b8-NtR" firstAttribute="top" secondItem="A5L-fM-5Zh" secondAttribute="top" id="05Q-BR-epH"/>
                                     <constraint firstAttribute="bottom" secondItem="2Kx-CF-2dh" secondAttribute="bottom" id="AEM-r1-FUX"/>
                                     <constraint firstAttribute="bottom" secondItem="45X-b8-NtR" secondAttribute="bottom" id="GFa-1g-Wef"/>
-                                    <constraint firstItem="hg0-sI-byI" firstAttribute="top" secondItem="A5L-fM-5Zh" secondAttribute="top" id="PBO-5I-31t"/>
                                     <constraint firstItem="2Kx-CF-2dh" firstAttribute="top" secondItem="A5L-fM-5Zh" secondAttribute="top" id="QIx-de-EbB"/>
-                                    <constraint firstItem="hg0-sI-byI" firstAttribute="leading" secondItem="A5L-fM-5Zh" secondAttribute="leading" id="b8u-z4-fu3"/>
                                     <constraint firstAttribute="height" constant="40" id="jyB-Ut-Omz"/>
                                     <constraint firstAttribute="trailing" secondItem="45X-b8-NtR" secondAttribute="trailing" id="wj9-jq-WLG"/>
                                 </constraints>
@@ -246,7 +237,6 @@
     </scenes>
     <resources>
         <image name="covid3" width="776" height="404"/>
-        <image name="gps-826721" width="256" height="256"/>
         <image name="iconfinder_search_172546" width="256" height="256"/>
     </resources>
 </document>

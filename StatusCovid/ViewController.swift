@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoreLocation
 
 class ViewController: UIViewController {
 
@@ -31,7 +30,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var recuperadostLabel: UILabel!
     
     @IBOutlet weak var imgBandera: UIImageView!
-    
     var statusManager = StatusManager()
     
     override func viewDidLoad() {
@@ -41,8 +39,9 @@ class ViewController: UIViewController {
         statusManager.delegado = self
         LimpiarInfo(paisText: "Busca el pais",img: "covid3.png")
 
+
     }
-    
+
     
     @IBAction func btnBuscar(_ sender: UIButton) {
         if buscarTextField.text != "" {
@@ -96,6 +95,8 @@ class ViewController: UIViewController {
     
 }
 
+
+
 extension ViewController : UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         buscarTextField.text = ""
@@ -136,7 +137,7 @@ extension ViewController : StatusManagerDelegate {
         DispatchQueue.main.async {
             if cualError.localizedDescription == "The data couldn’t be read because it is missing." {
                 //Alerta
-                let alerta = UIAlertController(title: "Pais Desconocida", message: "Verifica que el nombre del Pais esta bien escrito e intentalo de nuevo", preferredStyle: .alert)
+                let alerta = UIAlertController(title: "Pais Desconocido", message: "Verifica que el nombre del Pais esta bien escrito e intentalo de nuevo", preferredStyle: .alert)
                 let actionOk = UIAlertAction(title: "Entendido", style: .default, handler: nil)
                 alerta.addAction(actionOk)
                 self.present(alerta, animated: true, completion: nil)
